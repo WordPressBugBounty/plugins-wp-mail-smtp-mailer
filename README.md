@@ -1,0 +1,1 @@
+# plugins-wp-mail-smtp-mailer
