@@ -57,8 +57,17 @@ class WPMSM_settings
 		<h2><?php echo 'WP SMTP Mailer - SMTP7' ?></h2>
 		<form action ='options-general.php?page=wp-mail-smtp-mailer' method="POST"> 
 		<?php wp_nonce_field('WPMS-mail-option') ?>
+		
 		<table class="form-table">
 			<tbody>
+				<tr valign="top">
+					<th></th>
+					<td colspan="2">
+						<p style="margin:5px 15px 15px;color:#555;">
+							Want a safe SMTP for testing? Try <a href="https://mailmug.net" target="_blank">MailMug.net Sandbox</a>.
+						</p>
+					</td>
+				</tr>
 				<tr valign="top">
 				<th><lable><?php esc_html_e('Host', 'wp-mail-smtp-mailer') ?></lable></th>
 				<td scop="row">

@@ -4,7 +4,7 @@ Plugin Name: WP SMTP Mailer - SMTP7
 Plugin URI: https://ciphercoin.com/
 Description: Make email delivery easy from WordPress. It is easy to configure. 
 Text Domain: wp-mail-smtp-mailer
-Version: 1.0.10
+Version: 1.1.0
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Author: Arshid

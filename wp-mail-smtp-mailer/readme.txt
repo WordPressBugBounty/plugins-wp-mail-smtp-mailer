@@ -2,8 +2,8 @@
 Contributors: arshidkv12
 Tags:  wordpress smtp, wp smtp, wp-phpmailer, wp mail, WordPress Mail Smtp
 Requires at least: 3.5
-Tested up to: 6.8
-Stable tag: 1.0.10
+Tested up to: 6.9
+Stable tag: 1.1.0
 License: GPLv2
 Requires PHP: 5.6
 
