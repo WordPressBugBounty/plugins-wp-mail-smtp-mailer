@@ -271,7 +271,7 @@ class WPMSM_settings
 		if ( !current_user_can( 'activate_plugins' ) )
 			wp_die( esc_html( __( 'You do not have sufficient permissions to access this page.', 'wp-mail-smtp-mailer' ) ) );
 		
-		$nonce_vrfy = $_REQUEST['_wpnonce'];
+		$nonce_vrfy = isset( $_REQUEST['_wpnonce'] ) ? $_REQUEST['_wpnonce'] : '';
         
 		if ( ! wp_verify_nonce( $nonce_vrfy, 'WPMS-mail-option') ) return;
             
@@ -294,8 +294,7 @@ class WPMSM_settings
 		); 
 
 		update_option('WPMSM_mail_data', $data);
-
-		
+		echo "<div class='notice notice-success mt-15'><p>Saved successfully.</p></div>";		
     }
 
 
